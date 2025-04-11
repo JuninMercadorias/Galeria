@@ -11,50 +11,52 @@
 
     <div class="thumbs">
         <div class="thumb">
-            <a href="#img1">
+            <a href="#gwen">
                 <img src="{% static 'GwenStacy.jpg' %}" alt="Gwen Stacy">
             </a>
             <p class="caption">Gwen Stacy</p>
         </div>
         <div class="thumb">
-            <a href="#img2">
+            <a href="#miguel">
                 <img src="{% static 'MiguelOhara.jpg' %}" alt="Miguel O'Hara">
             </a>
             <p class="caption">Miguel O'Hara</p>
         </div>
         <div class="thumb">
-            <a href="#img3">
+            <a href="#miles">
                 <img src="{% static 'MilesMorales.jpg' %}" alt="Miles Morales">
             </a>
             <p class="caption">Miles Morales</p>
         </div>
     </div>
 
-    <!-- Lightbox -->
-    <div class="lightbox" id="img1">
-        <div class="content">
-            <a href="#" class="nav">✕</a>
-            <a href="#img3" class="nav">⬅</a>
+    <!-- Lightbox Gwen -->
+    <div id="gwen" class="lightbox">
+        <div class="lightbox-content">
+            <h2>Gwen Stacy</h2>
             <img src="{% static 'GwenStacy.jpg' %}" alt="Gwen Stacy">
-            <a href="#img2" class="nav">➡</a>
+            <p>Gwen Stacy é a Mulher-Aranha do Aranhaverso, conhecida por sua coragem e agilidade.</p>
+            <a href="#" class="close">✕ Fechar</a>
         </div>
     </div>
 
-    <div class="lightbox" id="img2">
-        <div class="content">
-            <a href="#" class="nav">✕</a>
-            <a href="#img1" class="nav">⬅</a>
+    <!-- Lightbox Miguel -->
+    <div id="miguel" class="lightbox">
+        <div class="lightbox-content">
+            <h2>Miguel O'Hara</h2>
             <img src="{% static 'MiguelOhara.jpg' %}" alt="Miguel O'Hara">
-            <a href="#img3" class="nav">➡</a>
+            <p>Miguel O'Hara é o Homem-Aranha 2099, um dos mais poderosos e inteligentes do multiverso.</p>
+            <a href="#" class="close">✕ Fechar</a>
         </div>
     </div>
 
-    <div class="lightbox" id="img3">
-        <div class="content">
-            <a href="#" class="nav">✕</a>
-            <a href="#img2" class="nav">⬅</a>
+    <!-- Lightbox Miles -->
+    <div id="miles" class="lightbox">
+        <div class="lightbox-content">
+            <h2>Miles Morales</h2>
             <img src="{% static 'MilesMorales.jpg' %}" alt="Miles Morales">
-            <a href="#img1" class="nav">➡</a>
+            <p>Miles Morales é o novo Homem-Aranha, um jovem herói com habilidades únicas e eletrizantes.</p>
+            <a href="#" class="close">✕ Fechar</a>
         </div>
     </div>
 </body>
