@@ -1,18 +1,33 @@
 {% load static %}
 <!DOCTYPE html>
-
-
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Galeria Aranhaverso</title>
-    <link rel="stylesheet" href="{% static 'Aranhaverso/style.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
 </head>
 <body>
     <h1 class="titulo">Galeria - Aranhaverso</h1>
 
     <div class="thumbs">
-
+        <div class="thumb">
+            <a href="#img1">
+                <img src="{% static 'GwenStacy.jpg' %}" alt="Gwen Stacy">
+            </a>
+            <p class="caption">Gwen Stacy</p>
+        </div>
+        <div class="thumb">
+            <a href="#img2">
+                <img src="{% static 'MiguelOhara.jpg' %}" alt="Miguel O'Hara">
+            </a>
+            <p class="caption">Miguel O'Hara</p>
+        </div>
+        <div class="thumb">
+            <a href="#img3">
+                <img src="{% static 'MilesMorales.jpg' %}" alt="Miles Morales">
+            </a>
+            <p class="caption">Miles Morales</p>
+        </div>
     </div>
 
     <!-- Lightbox -->
